@@ -224,3 +224,17 @@ button:hover, .main-button:hover {
     max-width: 100%;
   }
 }
+.twitch-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  border: 2px solid #9147ff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 20px #9147ff55;
+}
+
+.twitch-wrapper iframe {
+  width: 100%;
+  height: 540px;
+  display: block;
+}
