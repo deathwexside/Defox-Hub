@@ -147,6 +147,11 @@ button:hover, .main-button:hover {
   background: #1a1a1a;
   border: 2px solid #7c3aed;
   margin-bottom: 40px;
+
+  display: flex;             /* Включаем флекс */
+  justify-content: center;   /* Центрируем по горизонтали */
+  align-items: center;       /* Центрируем по вертикали */
+  min-height: 360px;         /* Минимальная высота, чтобы не сжимался */
 }
 
 .iframe-wrapper iframe {
@@ -154,6 +159,7 @@ button:hover, .main-button:hover {
   height: 100%;
   border: none;
   display: block;
+  min-height: 360px;        /* Минимальная высота */
 }
 
 @keyframes fadeIn {
